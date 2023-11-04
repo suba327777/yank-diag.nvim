@@ -1,4 +1,4 @@
-local module = require("yank-popup.module")
+local module = require("yank_diag.module")
 
 local config = {
   opt = "hello!"
@@ -12,8 +12,8 @@ M.setup = function(args)
   M.config = vim.tbl_deep_extend("force", M.config, args or {})
 end
 
-M.hello = function()
-  module.test_function()
+M.yank_diag = function()
+  module.yank_diag()
 end
 
 return M
