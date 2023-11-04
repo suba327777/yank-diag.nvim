@@ -17,6 +17,7 @@ end
 
 M.yank_diag = function()
   local diagnostic_message = get_cursor_diagnostic_message()
+  vim.fn.setreg('+', diagnostic_message)
 end
 
 return M
