@@ -1,6 +1,6 @@
 local M = {}
 
-M.test_function = function()
+M.yank_diag = function()
   return print("hello world")
 end
 
