@@ -1,1 +1,1 @@
-# yank-popup.nvim
+# yank-diagnostic.nvim
