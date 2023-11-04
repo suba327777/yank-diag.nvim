@@ -1,1 +1,1 @@
-# yank-diagnostic.nvim
+# yank-diag.nvim
