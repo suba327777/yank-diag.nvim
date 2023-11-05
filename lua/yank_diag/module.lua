@@ -19,10 +19,10 @@ M.yank_diag = function()
   local diagnostic_message = get_cursor_diagnostic_message()
 
   if diagnostic_message ~= '' then
-    vim.cmd('echo "Diagnostic info yanked!"')
+    vim.notify('Diagnostic info yanked!')
     vim.fn.setreg('+', diagnostic_message)
   else
-    vim.cmd('echo "No Diagnostic info at the cursor position."')
+    vim.notify('No Diagnostic info at the cursor position.')
   end
 end
 
